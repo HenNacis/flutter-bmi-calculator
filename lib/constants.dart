@@ -39,3 +39,12 @@ const kBMITextStyle = TextStyle(
 const kBodyTextStyle = TextStyle(
   fontSize: 22.0,
 );
+
+const kSliderStyle = SliderThemeData(
+  inactiveTrackColor: Color(0xFF8D8E98),
+  activeTrackColor: Colors.white,
+  thumbColor: kBottomContainerColor,
+  overlayColor: Color(0x29EB1555),
+  thumbShape: RoundSliderThumbShape(enabledThumbRadius: 15.0),
+  overlayShape: RoundSliderOverlayShape(overlayRadius: 30.0),
+);
